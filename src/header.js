@@ -83,12 +83,20 @@ const headerContent = `
 </body>
 </html>`;
 
+// * /-----------------|Hover effect on navigation bar|---------------/* //
+
+// * /----------------|Select hover contentn|----------------/* //
 header.innerHTML = headerContent;
 const store = document.querySelector('.store');
 const hoverContainer = document.querySelector('.hover-container');
 const content = document.querySelector('.hover-content');
+
+// * /---------------|Blury effect on the body when hover| ------------/*//
 const blury = document.querySelector('.container-wrapper')
 
+
+
+// * / --------------------|Navigation bar item|----------------/*//
 const navElements = [
   document.getElementById('store-nav'),
   document.getElementById('mac-nav'),
@@ -101,6 +109,8 @@ const navElements = [
   document.getElementById('accessories-nav'),
 ];
 
+
+// * / ------------------|CSS style , dropdown effect when hover| --------------/ * //
 function toggleContent(showContent) {
   content.style.transition = "ease-in-out .1s";
   content.style.opacity = showContent ? "1" : "0";
@@ -110,6 +120,8 @@ function toggleContent(showContent) {
   console.log(showContent ? 'in' : 'out');
 }
 
+
+// */ --------------------------|Event Listener when hovering over the navigation bar| ------------/*//
 navElements.forEach(nav => {
   nav.addEventListener('mouseover', () => toggleContent(true));
 
@@ -124,6 +136,3 @@ hoverContainer.addEventListener('mouseover', () => {
 hoverContainer.addEventListener('mouseout' , () => {
     toggleContent(false)
 })
-
-
-

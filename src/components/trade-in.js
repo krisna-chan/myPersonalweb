@@ -1,4 +1,4 @@
-    // MINIMIZE
+
     // ------------- CARD ---------------- //
     document.querySelectorAll(".card-sector").forEach((card) => {
 
@@ -18,6 +18,7 @@
   
   
   
+        // ----------|fetching attributes (info)|-----------//
         const productPrice = card.getAttribute("data-price");
         const productName = card.getAttribute("data-price-item");
         const device1 = card.getAttribute("data-device-v1");
@@ -99,6 +100,6 @@
                   </div>
         `
   
-        // insert product info
+// ------- | insert product info | ----------
         card.appendChild(productPriceInfo);
       });

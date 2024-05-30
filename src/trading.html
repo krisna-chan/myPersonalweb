@@ -13,10 +13,12 @@
 
 <body>
     <header class="sticky" id="header"></header>
+
+    <!-- blury effect when hover on navigation bar item -->
     <div class="container-wrapper">
 
-        <div class="container hero-container" style="max-width: 908px">
-            <div class="logo d-flex" >
+        <div class="container hero-container">
+            <div class="logo d-flex">
                 <img class="logo m-auto"
                     src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/apple-trade-in-logo-202303?wid=100&hei=40&fmt=png-alpha&.v=1713803601317"
                     alt="" />
@@ -122,111 +124,67 @@
                 </div>
             </div>
         </div>
+
+        <!-- |dynamic component for trading item| -->
         <main class="trade-in-container container mt-4">
 
-            <div class="trading-section container d-flex m-auto px-5"
-            >
-        
-            <div
-              class="card card-sector w-100 bg-whitesmoke " 
-              id="iphone-content"
-              data-url="#" 
-              data-imgSrc="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphones-value-tradein-202309_GEO_US?wid=780&hei=640&fmt=png-alpha&.v=1693339715015"
-              data-price-estimate="$30-$630"
-              data-price-item= "iPhone"
-              data-device-v1="iPhone 14 Pro Max" 
-              data-v1-price="$630-$700" 
-              data-device-v2="iPhone 14 Pro" 
-              data-v2-price="$550-$600"
-              data-device-v3="iPhone 14 Plus" 
-              data-v3-price="$400-$450" 
-              data-device-v4="iPhone 14"
-              data-v4-price="$300-$350">
+            <div class="trading-section container d-flex m-auto px-5">
+
+                <div class="card card-sector w-100 bg-whitesmoke " id="iphone-content" data-url="#"
+                    data-imgSrc="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphones-value-tradein-202309_GEO_US?wid=780&hei=640&fmt=png-alpha&.v=1693339715015"
+                    data-price-estimate="$30-$630" data-price-item="iPhone" data-device-v1="iPhone 14 Pro Max"
+                    data-v1-price="$630-$700" data-device-v2="iPhone 14 Pro" data-v2-price="$550-$600"
+                    data-device-v3="iPhone 14 Plus" data-v3-price="$400-$450" data-device-v4="iPhone 14"
+                    data-v4-price="$300-$350">
+                </div>
+
             </div>
-        
-          </div>
-          <div class="container trading-section d-flex m-auto px-5 "
-          >
-        
-            <div
-              class="card card-sector w-100 bg-whitesmoke hidden" data-url="#"
-              id="iwatch-content"
-              data-imgSrc="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watches-value-tradein-202309?wid=780&hei=640&fmt=png-alpha&.v=1701363689556"
-              data-price-estimate="$70-$360"
-              data-price-item="Apple watch" 
-              data-device-v1="Apple Watch Ultra" 
-              data-v1-price="$360" 
-              data-device-v2="Apple Watch Series 8" 
-              data-v2-price="$165"
-              data-device-v3="Apple Watch SE(2nd generation)" 
-              data-v3-price="$110" 
-              data-device-v4="Apple Watch Series 7"
-              data-v4-price="$140">
+            <div class="container trading-section d-flex m-auto px-5 ">
+
+                <div class="card card-sector w-100 bg-whitesmoke hidden" data-url="#" id="iwatch-content"
+                    data-imgSrc="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watches-value-tradein-202309?wid=780&hei=640&fmt=png-alpha&.v=1701363689556"
+                    data-price-estimate="$70-$360" data-price-item="Apple watch" data-device-v1="Apple Watch Ultra"
+                    data-v1-price="$360" data-device-v2="Apple Watch Series 8" data-v2-price="$165"
+                    data-device-v3="Apple Watch SE(2nd generation)" data-v3-price="$110"
+                    data-device-v4="Apple Watch Series 7" data-v4-price="$140">
+                </div>
+
             </div>
-        
-          </div>
-          <div class="container trading-section d-flex m-auto px-5 "
-          >
-        
-            <div
-               id="ipad-content"
-              class="card card-sector w-100 bg-whitesmoke hidden" data-url="#"
-              data-imgSrc="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipads-value-tradein-202405?wid=780&hei=640&fmt=png-alpha&.v=1713389652740"
-              data-price-estimate="$40-$580"
-              data-price-item="iPad" 
-              data-device-v1="iPad Pro" 
-              data-v1-price="$580" 
-              data-device-v2="iPad Air" 
-              data-v2-price="$310"
-              data-device-v3="iPad" 
-              data-v3-price="$250" 
-              data-device-v4="iPad Mini"
-              data-v4-price="$250">
+            <div class="container trading-section d-flex m-auto px-5 ">
+
+                <div id="ipad-content" class="card card-sector w-100 bg-whitesmoke hidden" data-url="#"
+                    data-imgSrc="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipads-value-tradein-202405?wid=780&hei=640&fmt=png-alpha&.v=1713389652740"
+                    data-price-estimate="$40-$580" data-price-item="iPad" data-device-v1="iPad Pro" data-v1-price="$580"
+                    data-device-v2="iPad Air" data-v2-price="$310" data-device-v3="iPad" data-v3-price="$250"
+                    data-device-v4="iPad Mini" data-v4-price="$250">
+                </div>
+
             </div>
-        
-          </div>
-          <div class="container trading-section d-flex m-auto px-5 "
-          >
-        
-            <div
-              id="mac-content"
-              class="card card-sector w-100 bg-whitesmoke hidden"
-              data-url="#"
-              data-imgSrc="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macs-value-tradein-202310?wid=780&hei=640&fmt=png-alpha&.v=1697208381557"
-              data-price-estimate="$120-$1170"
-              data-price-item="Mac" 
-              data-device-v1="MacBook Pro" 
-              data-v1-price="$1010" 
-              data-device-v2="Macbook Air" 
-              data-v2-price="$520"
-              data-device-v3="MacBook" 
-              data-v3-price="$145" 
-              data-device-v4="iMac"
-              data-v4-price="$420">
+            <div class="container trading-section d-flex m-auto px-5 ">
+
+                <div id="mac-content" class="card card-sector w-100 bg-whitesmoke hidden" data-url="#"
+                    data-imgSrc="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macs-value-tradein-202310?wid=780&hei=640&fmt=png-alpha&.v=1697208381557"
+                    data-price-estimate="$120-$1170" data-price-item="Mac" data-device-v1="MacBook Pro"
+                    data-v1-price="$1010" data-device-v2="Macbook Air" data-v2-price="$520" data-device-v3="MacBook"
+                    data-v3-price="$145" data-device-v4="iMac" data-v4-price="$420">
+                </div>
+
             </div>
-        
-          </div>
-          <div class="container trading-section d-flex m-auto px-5 "
-          >
-        
-            <div
-              class="card card-sector w-100 bg-whitesmoke hidden"
-              id="android-content"
-              data-url="#"
-              data-imgSrc="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/phone-value-tradein-202303?wid=780&hei=640&fmt=png-alpha&.v=1679589167375"
-              data-price-estimate="$20-$540"
-              data-price-item="Android" 
-              data-device-v1="Samsung Galaxy S22 Ultra 5G" 
-              data-v1-price="$270" 
-              data-device-v2="Samsung Galaxy S21 5G" 
-              data-v2-price="$170"
-              data-device-v3="Samsung Galaxy Note 20 Ultra" 
-              data-v3-price="$150" 
-              data-device-v4="Google Pixel 6 Pro"
-              data-v4-price="$140">
+            <div class="container trading-section d-flex m-auto px-5 ">
+
+                <div class="card card-sector w-100 bg-whitesmoke hidden" id="android-content" data-url="#"
+                    data-imgSrc="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/phone-value-tradein-202303?wid=780&hei=640&fmt=png-alpha&.v=1679589167375"
+                    data-price-estimate="$20-$540" data-price-item="Android"
+                    data-device-v1="Samsung Galaxy S22 Ultra 5G" data-v1-price="$270"
+                    data-device-v2="Samsung Galaxy S21 5G" data-v2-price="$170"
+                    data-device-v3="Samsung Galaxy Note 20 Ultra" data-v3-price="$150"
+                    data-device-v4="Google Pixel 6 Pro" data-v4-price="$140">
+                </div>
+
             </div>
-        
-          </div>
+
+
+
             <!-- refund info -->
             <div class="trade-section mx-3 mb-4 hidden" id="refund-content">
                 <div class="trade trading-value">
@@ -245,19 +203,27 @@
                         <a href="#" class="btn btn-primary">Get start</a>
                     </div>
                 </div>
-                
+
                 <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/other-value-tradein-202401?wid=460&hei=458&fmt=png-alpha&.v=1705963098972"
                     alt="" />
             </div>
 
         </main>
+        <!-- |dynamic component for trading item| -->
 
 
+        <!-- |banner| -->
         <div class="container banner">
-            <p class="banner-content text-center " > Already Started Trade-In? Check its <span class="text-primary" > status ></span> </p>
+            <p class="banner-content text-center "> Already Started Trade-In? Check its <span class="text-primary">
+                    status ></span> </p>
         </div>
 
+
+        <!-- |secondary section| -->
+
         <main class="container-fluid third-container">
+            
+            <!-- intro header -->
             <div class="container pt-4">
                 <div class="title text-center">
                     <h1>Two easy ways to trade in.</h1>
@@ -270,21 +236,19 @@
                 </div>
             </div>
 
-            
+
+            <!-- switching buttons -->
             <div class="container mt-3 mb-3 w-25">
-                <ul class="nav nav-pills nav-fill gap-1 p-1 lg rounded-5 shadow-sm" id="pillNav2" role="tablist" style="
-                    --bs-nav-link-color: var(--bs-black);
-                    --bs-nav-pills-link-active-color: var(--bs-white);
-                    --bs-nav-pills-link-active-bg: var(--bs-black);">
+                <ul class="nav nav-pills nav-fill gap-1 p-1 lg rounded-5 shadow-sm" id="pillNav2" role="tablist">
                     <li class="nav-item-title" role="presentation">
                         <button class="nav-link active rounded-5" id="online" data-bs-toggle="tab" type="button"
-                            role="tab" aria-selected="true" style="--bs-nav-link-hover-color: #000000">
+                            role="tab" aria-selected="true">
                             Online
                         </button>
                     </li>
                     <li class="nav-item-title" role="presentation">
                         <button class="nav-link rounded-5" id="instore" data-bs-toggle="tab" type="button" role="tab"
-                            aria-selected="false" style="--bs-nav-link-hover-color: #000000">
+                            aria-selected="false">
                             In store
                         </button>
                     </li>
@@ -292,6 +256,7 @@
             </div>
 
 
+            <!-- online group switch content -->
             <div class="container online-group text-center">
                 <h1>
                     Get credit toward a new Apple product.
@@ -348,125 +313,130 @@
 
             </div>
 
-            <!-- instore-group -->
+            <!-- instore-group switch content-->
 
             <div class="container instore-group text-center hidden">
                 <h1>
                     Get instant credit toward an in‑store purchase.
                 </h1>
                 <div class="card-group">
-                <div class=" card mx-2 p-2">
-                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/instore-step1-card-tradein-202303?wid=750&hei=456&fmt=png-alpha&.v=1679589167301"
-                        class="card-img-top" alt="..." />
-                    <div class="card-body">
-                        <p class="card-text">
-                            <small class="card-number text-body-secondary">Step 1</small>
-                        </p>
-                        <h5 class="card-title">Get your device ready for trade in.</h5>
-                        <p class="card-text">
-                            Follow a few simple steps to back up your data and prepare your device before you bring it
-                            in.
-                        </p>
-                        <p class="card-text">
-                            <a class = 'text-decoration-none' href="">See how to prepare your device</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="card mx-2 p-2">
-                    <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/instore-step2-card-tradein-202303?wid=750&hei=456&fmt=png-alpha&.v=1679589167304"
-                        class="card-img-top" alt="..." />
-                    <div class="card-body">
-                        <p class="card-text">
-                            <small class="card-number text-body-secondary">Step 2</small>
-                        </p>
-                        <h5 class="card-title">Bring it to an Apple Store.</h5>
-                        <p class="card-text">
-                            A Specialist will inspect your device and give you an exact value on the spot. If it doesn’t
-                            have any value, we can recycle it for free.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="title-question container">
-            <h2 class="text-center mt-4 mb-4">
-                Quick answers about trading in online.
-            </h2>
-            <div class="comment py-5">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="question col">
-                            <h5 class="card-title">What if I'm not ready to buy something</h5>
+                    <div class=" card mx-2 p-2">
+                        <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/instore-step1-card-tradein-202303?wid=750&hei=456&fmt=png-alpha&.v=1679589167301"
+                            class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <p class="card-text">
+                                <small class="card-number text-body-secondary">Step 1</small>
+                            </p>
+                            <h5 class="card-title">Get your device ready for trade in.</h5>
+                            <p class="card-text">
+                                Follow a few simple steps to back up your data and prepare your device before you bring
+                                it
+                                in.
+                            </p>
+                            <p class="card-text">
+                                <a class='text-decoration-none' href="">See how to prepare your device</a>
+                            </p>
                         </div>
-                        <div class="profile">
-                            <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/specialist-online-value-tradein-card-01-202303?wid=60&hei=60&fmt=png-alpha&.v=1679683659213"
-                                alt="employee" />
-                        </div>
-                        <div class="answer col">
-                            <p class="card-text text-dark p-2">
-                                No problem. We can put the value of your current device on a
-                                gift card that you can use anytime. Get an estimate through the
-                                trade-in tool and choose the Apple Gift Card option.
+                    </div>
+                    <div class="card mx-2 p-2">
+                        <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/instore-step2-card-tradein-202303?wid=750&hei=456&fmt=png-alpha&.v=1679589167304"
+                            class="card-img-top" alt="..." />
+                        <div class="card-body">
+                            <p class="card-text">
+                                <small class="card-number text-body-secondary">Step 2</small>
+                            </p>
+                            <h5 class="card-title">Bring it to an Apple Store.</h5>
+                            <p class="card-text">
+                                A Specialist will inspect your device and give you an exact value on the spot. If it
+                                doesn’t
+                                have any value, we can recycle it for free.
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <main class="container-fluid bg-gray">
-            <div class="container">
-                <h1 class="text-center prominent-text mb-5 mx-auto">
-                    All the reasons to trade in with Apple. Including one very big 🌎ne.
-                </h1>
-    
-                <div class="row row-cols-1 row-cols-md-2 g-4">
-                    <div class="col">
-                        <div class="card card-img-top" style="
+
+            
+            <!-- |secondary section| -->
+            
+            <!-- addition  -->
+
+
+            <!-- |trading FAQ| -->
+            <div class="title-question container">
+                <h2 class="text-center mt-4 mb-4">
+                    Quick answers about trading in online.
+                </h2>
+                <div class="comment py-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="question col">
+                                <h5 class="card-title">What if I'm not ready to buy something</h5>
+                            </div>
+                            <div class="profile">
+                                <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/specialist-online-value-tradein-card-01-202303?wid=60&hei=60&fmt=png-alpha&.v=1679683659213"
+                                    alt="employee" />
+                            </div>
+                            <div class="answer col">
+                                <p class="card-text text-dark p-2">
+                                    No problem. We can put the value of your current device on a
+                                    gift card that you can use anytime. Get an estimate through the
+                                    trade-in tool and choose the Apple Gift Card option.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <main class="container-fluid bg-gray">
+                <div class="container">
+                    <h1 class="text-center prominent-text mb-5 mx-auto">
+                        All the reasons to trade in with Apple. Including one very big 🌎ne.
+                    </h1>
+
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                            <div class="card card-img-top" style="
                         background: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/easy-card-tradein-202303?wid=1028&hei=1388&fmt=png-alpha&.v=1679589166808);
                         height: 620px;
                         background-position: center;
                         background-size: cover;
                         ">
-                            <h2 class = "text-start px-3">
-                                Easy in every way.
-                            </h2>
-                            <p class="text-start px-3">
-                                Trade in online or at an Apple Store. Get credit toward a
-                                purchase, or trade in for an Apple Gift Card. It’s all up to you.
-                            </p>
+                                <h2 class="text-start px-3">
+                                    Easy in every way.
+                                </h2>
+                                <p class="text-start px-3">
+                                    Trade in online or at an Apple Store. Get credit toward a
+                                    purchase, or trade in for an Apple Gift Card. It’s all up to you.
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="card card-img-top" style="
+                        <div class="col">
+                            <div class="card card-img-top" style="
                         background: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/privacy-card-tradein-202303?wid=1028&hei=1388&fmt=png-alpha&.v=1679589167316);
                         height: 620px;
                         background-position: center;
                         background-size: cover;
                         ">
-                            <h2 class = "text-start px-3">
-                                Your Privacy, protected
-                            </h2>
-                            <p class = "text-start px-3">
-                                Whether you’re backing up, transferring, or just erasing your
-                                personal data, we can show you how to handle it safely and
-                                securely.
-                            </p>
+                                <h2 class="text-start px-3">
+                                    Your Privacy, protected
+                                </h2>
+                                <p class="text-start px-3">
+                                    Whether you’re backing up, transferring, or just erasing your
+                                    personal data, we can show you how to handle it safely and
+                                    securely.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </main>
+            </main>
+
         </main>
 
-        
     </div>
-
-
-    <style>
-
-    </style>
+    <!-- blury effect when hover on navigation bar item -->
 
     <footer id="footer"></footer>
     <script src="./trading.js"></script>

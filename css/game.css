@@ -1,0 +1,182 @@
+/* ---------|Global section|---------------- */
+    * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    a {
+        text-decoration: none;
+    }
+    }
+    body {
+    background-color: white;
+    font-size: 14px;
+    }
+
+    header {
+    position: relative;
+    filter: blur(0.03rem);
+    }
+
+    .subheader {
+    filter: blur(0.03rem);
+    background-color: rgb(255, 255, 255, 0.9);
+    justify-content: space-around !important;
+    }
+    
+
+    .text-primary{
+        color: #0070c9;
+    }
+/* -------| secondary section |---------- */
+    .appstore-button {
+    box-shadow: none;
+    border: 1px solid #0070c9;
+    background-color: white;
+    border-radius: 5px;
+    color: #0070c9;
+    padding: 2px;
+    }
+
+    .preview * {
+    font-size: 1.4rem;
+    margin-top: 15px;
+    }
+    .game-ad {
+    background-color: black;
+    border-radius: 10px;
+    justify-content: space-between;
+    background: url("https://apps.apple.com/assets/images/arcade/upsell/banner-980@2x_LTR-5c84ccc9d203d5d0d45d6111807a7a37.jpg");
+    background-position: center;
+    background-position-y: center;
+    background-size: cover;
+    height: 152px;
+    .content-title h4 {
+        color: white;
+    }
+    a {
+        text-decoration: none;
+    }
+    }
+
+    .content-banner {
+    background-color: #f2f8fc;
+    border-radius: 10px;
+    p {
+        align-items: center;
+        text-align: center;
+    }
+    }
+    .game-info {
+    border-bottom: 1px solid #d6d6d6;
+    }
+    .game-title{
+        h3{
+            font-size: 1.3rem;
+        }
+    }
+
+    .screenshots-container {
+    display: flex;
+    height: 210px;
+    max-width: fit-content;
+    overflow-x: auto;
+    }
+    .screen {
+    margin-right: 5px;
+    }
+    .read-more {
+    margin-top: 20px;
+    text-align: start;
+    border-top: 1px solid #d6d6d6;
+    }
+    .read-more p {
+        max-width: 513px;
+        font-size: .9rem;
+    }
+
+    .data-info *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .data-info{
+        margin-top: 5px;
+    }
+
+    .alert-content{
+        border-top: 1px solid #d6d6d6; 
+        flex-direction: column;
+    }
+    .data{
+        max-width: 490px;
+        border-radius: 20px;
+        background-color: #f8f8f8;
+        padding: 10px;
+    }
+    .privacy-content {
+        flex-direction: column;
+    }
+    .privacy-content * {
+        text-align: center;
+    }
+    .analytics-content .title h5{
+        text-align: center;
+    }
+    
+
+.more{
+    color: #0070c9; cursor: pointer;
+}
+
+
+    .border-top{
+        border-top: 1px solid #d6d6d6;
+    }
+
+    .game-icon{
+        border: 1px solid #d6d6d6;
+        border-radius: 30px;
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+        max-height: 146px;
+        width: 146px;
+    }
+
+
+    /* ----------| media query |---------- */
+    @media screen and (max-width: 575px) {
+        .game-ad {
+            border-radius: 0%;
+        }
+        .context{
+            flex-direction: column-reverse;
+        }
+    
+        .modal-content{
+            border-radius: 20px !important;
+            outline: none !important;
+        }
+    
+        }
+        body *{
+            font-size: small;
+        }
+
+    @media screen and (max-width: 734px) {
+        .screenshots-container {
+            height: 403px;
+            overflow-x: auto;
+        }
+        .screenshots-container img {
+            width: 469px;
+        }
+        .game-ad {
+            background-position: right;
+            background: url("https://apps.apple.com/assets/images/arcade/upsell/banner-692@1x_LTR-d2c79d3bb0116d6692386c35272bc121.jpg");
+            background-size: cover;
+        }
+        body * {
+            font-size: smaller;
+        }
+    }
+    

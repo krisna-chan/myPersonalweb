@@ -1,4 +1,5 @@
 
+/* -------|Global section|--------- */
 * {
         padding: 0px;
         margin: 0px;
@@ -7,6 +8,15 @@
 ul{
     list-style: none;
 }
+.prominent-text{
+    font-size: 60px;
+}
+
+.container-fluid {
+    background-color: whitesmoke;
+    width: 100%;
+    }
+    
 
     h3{
         font-size: 20px;
@@ -22,6 +32,11 @@ ul{
         padding-top: 10px;
     }
 
+.bg-whitesmoke {
+    background-color: whitesmoke !important;
+    }
+    
+
     .breadcrumb{
         font-weight: 500;
     }
@@ -29,10 +44,17 @@ ul{
     .card-body{
         margin-right: 5px;
     }
-
-    @media screen and (max-width : 740px) {
-        
+    .nav{
+        font-size: 1rem !important;
     }
+    
+    
+    .btn{
+        border-radius: 30px !important;
+    }
+
+
+
     .col{
         h2{
             color: white;
@@ -52,9 +74,7 @@ ul{
         
 }
 
-.hidden{
-    display:none !important;
-}
+
 
 li{
     a{
@@ -63,6 +83,40 @@ li{
         color: black;
     }
 }
+
+
+/* --------|trading section|-------------- */
+
+
+.product-item-title ul{
+    max-width: 980px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.paragraph{
+    max-width: 700px;
+}
+
+.card-body{
+    text-align: start;
+}
+
+
+.product-item-titles.overflow-x-auto {
+max-width: 980px;
+}
+
+.trade-section {
+display: flex;
+justify-content: center;
+border: 1px;
+
+background-color: whitesmoke;
+}
+
+
 .trade-section{
     display: block;
     
@@ -85,6 +139,20 @@ li{
         
     }
 }
+.all-value a{
+    text-decoration: none;
+ }
+
+ 
+ .card.card-sector{
+    flex-direction: row-reverse ;
+    border:1px;
+    border-radius: 20px !important;
+    }
+
+    .trade-section{
+        border-radius: 20px;
+    }
 /* ========Media query ================*/
 
 @media screen and (max-width: 740px) {
@@ -113,126 +181,45 @@ li{
     font-size:1.2rem;
     }
     }
+@media screen and (max-width : 740px) {
+    
+}
 
+
+/* ----------|hidden contents|--------------- */
 .hidden-card{
     display: none !important;
 }
-
-.nav{
-    font-size: 1rem !important;
+.hidden{
+    display:none !important;
 }
 
 
-.btn{
-    border-radius: 30px !important;
-}
 
+
+
+
+
+/* ----------|switching content|---------------- */
  .instore-group .card-group{
     max-width: 600px;
     margin: auto;
  }
 
- .all-value a{
-    text-decoration: none;
- }
-
-.product-item-title ul{
-    max-width: 980px;
-    display: flex;
-    justify-content: space-around;
-    border-bottom: 2px solid whitesmoke;
-}
-
-.paragraph{
-    max-width: 700px;
-}
-
-.card-body{
-    text-align: start;
-}
-
-.trade-section{
-    border-radius: 20px;
-}
-
-.hero-container {
-    margin-top: 100px;
-}
-
-.hover-content * {
-    font-size: small;
-}
-
-.hero-container {
-    max-width: 980px;
-}
-
-
-.hero-container {
-margin-top: 100px;
-}
-
-
-.content.d-flex,
-.price {
-display: flex;
-justify-content: center;
-}
+ .nav.nav-pills.nav-fill.gap-1.p-1.lg.rounded-5.shadow-sm {
+    --bs-nav-link-color: var(--bs-black);
+    --bs-nav-pills-link-active-color: var(--bs-white);
+    --bs-nav-pills-link-active-bg: var(--bs-black);
+    }
+    
+    .card-group .card {
+    margin-right: 5px;
+    }
+    
 
 
 
-.content.d-flex {
-text-align: center;
-}
 
-.product-item-titles.overflow-x-auto {
-max-width: 980px;
-}
-
-.trade-section {
-display: flex;
-justify-content: center;
-border: 1px;
-
-background-color: whitesmoke;
-}
-
-.trade.trading-value,
-.trade.trade-item-title.d-flex {
-width: 100%;
-height: 100%;
-}
-
-.img-container.d-flex.p-3 {
-display: flex;
-padding: 3px;
-}
-
-.price-price-range .price {
-display: flex;
-justify-content: space-between;
-}
-
-.your-device,
-.price-range h3 {
-font-size: 20px;
-font-weight: 100;
-}
-
-.container-fluid {
-background-color: whitesmoke;
-width: 100%;
-}
-
-.nav.nav-pills.nav-fill.gap-1.p-1.lg.rounded-5.shadow-sm {
---bs-nav-link-color: var(--bs-black);
---bs-nav-pills-link-active-color: var(--bs-white);
---bs-nav-pills-link-active-bg: var(--bs-black);
-}
-
-.card-group .card {
-margin-right: 5px;
-}
 
 .title-header,
 .sub-header h2 {
@@ -243,11 +230,7 @@ text-align: center;
 font-weight: 300;
 }
 
-.title-question.container,
-/* .container {
-max-width: 940px;
-} */
-
+/* ----|additional section (FAQ)|--------- */
 .comment .card {
 margin: auto;
 border-radius: 10px;
@@ -261,24 +244,5 @@ border-radius: 5px;
 text-align: left;
 padding: 5px;
 margin: auto;
-}
-
-.prominent-text{
-    font-size: 60px;
-}
-
-
-.trading-section {
-max-width: 980px;
-}
-
-.bg-whitesmoke {
-background-color: whitesmoke !important;
-}
-
-.card.card-sector{
-flex-direction: row-reverse ;
-border:1px;
-border-radius: 20px !important;
 }
 

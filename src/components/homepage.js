@@ -1,5 +1,7 @@
 document.querySelectorAll('.hero-section').forEach((hero) =>{
 
+
+  // ----------- | fetching attributes and information |  ----- //
     const device = hero.getAttribute('data-device')
     const heroTitle = hero.getAttribute('data-hero-title')
     const heroSubtitle = hero.getAttribute('data-hero-subtitle')
@@ -18,5 +20,7 @@ document.querySelectorAll('.hero-section').forEach((hero) =>{
         </div>
       </div>
     `;
+
+    // ---- |inserting hero sections| ---- //
     hero.appendChild(heroSection);
   })
