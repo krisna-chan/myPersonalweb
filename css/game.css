@@ -175,8 +175,8 @@
             background: url("https://apps.apple.com/assets/images/arcade/upsell/banner-692@1x_LTR-d2c79d3bb0116d6692386c35272bc121.jpg");
             background-size: cover;
         }
-        body * {
-            font-size: smaller;
+        body{
+            font-size: calc(50% + 10px) !important;
         }
     }
     

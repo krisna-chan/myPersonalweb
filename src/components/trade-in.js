@@ -45,19 +45,19 @@
                           </h1>
                       </div>
                       <div class="price-price-range">
-                          <div class="price">
+                          <div class="price d-flex justify-content-between">
                               <div class="item-title">
                                   <h3 class="your-device" >
                                       Your device
                                   </h3>
                               </div>
-                              <div class="price-range">
+                              <div class="price-range ">
                                   <h3 >
                                       Estimated trade-in value
                                   </h3>
                               </div>
                           </div>
-                          <div class="price">
+                          <div class="price  d-flex justify-content-between ">
                               <div class="item-title">
                                   <h3> ${device1}</h3>
                               </div>
@@ -65,7 +65,7 @@
                                   <h3>Up to ${device1Price}</h3>
                               </div>
                           </div>
-                          <div class="price">
+                          <div class="price  d-flex justify-content-between">
                               <div class="item-title">
                                   <h3>${device2}</h3>
                               </div>
@@ -73,7 +73,7 @@
                                   <h3>Up to ${device2Price}</h3>
                               </div>
                           </div>
-                          <div class="price">
+                          <div class="price d-flex justify-content-between">
                               <div class="item-title">
                                   <h3>${device3}</h3>
                               </div>
@@ -81,7 +81,7 @@
                                   <h3>Up to ${device3Price}</h3>
                               </div>
                           </div>
-                          <div class="price">
+                          <div class="price d-flex justify-content-between">
                               <div class="item-title">
                                   <h3>${device4}</h3>
                               </div>
